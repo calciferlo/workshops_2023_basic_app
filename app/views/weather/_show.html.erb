@@ -1,0 +1,15 @@
+<ul style="list-style: none; display: flex; align-items: center;">
+    <li>
+        Today's weather in Cracow is: <%= weather_presenter.temperature %>,
+    </li>
+    <li>
+        <%= weather_presenter.description %> 
+    </li>
+    <li> 
+        <img src="<%= weather_presenter.icon %>" alt="<%=weather_presenter.description %>" %>
+    </li>
+    <li>
+        <%= weather_presenter.encourage_text %>
+    <li>
+</ul>
+
